@@ -36,14 +36,14 @@ void inputData(){
     
 
 void outputData(){
-    system("cls");
-    cout << "Data array yang dimasukkan:" << endl;
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-    getch(); // Tunggu input dari pengguna
-}
+    system("cls") ;
+    cout<< "Data array yang dimasukkan:" << endl;
+    for(int i = 0; i < n; i++) {
+        cout<< arr[i] << " ";
+     }
+    cout<< endl;
+    getch();
+ }
 
 void bubbleSorting(){
   system("cls");
