@@ -2,7 +2,7 @@
 #include <conio.h>
 using namespace std;
 
-const int MAX_SIZE = 100; // Ukuran maksimum array
+const int MAX_SIZE = 50; // Ukuran maksimum array
 int arr[MAX_SIZE]; // Array untuk menyimpan data
 int n = 0; // Jumlah elemen yang dimasukkan
 
