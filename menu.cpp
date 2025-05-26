@@ -9,8 +9,8 @@ int n = 0; // Jumlah elemen yang dimasukkan
 void dMenu() {
     system("cls");
     cout << "Aplikasi Sorting Bubble" << "\n";       
-    cout << "1. Memasukkan data" << "\n";            
-    cout << "2. Menampilkan data" << "\n";            
+    cout << "1. Memasukkan Data" << "\n";            
+    cout << "2. Menampilkan Data" << "\n";            
     cout << "3. Sorting" << "\n";           
     cout << "4. Sepatah Kata" << "\n";            
     cout << "5. Exit" << "\n";           
