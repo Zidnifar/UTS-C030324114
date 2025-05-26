@@ -17,25 +17,23 @@ void dMenu() {
     cout << "Masukan angka :";        
 }
 
-void inputData() {
-  system("cls");
-    cout << "Masukkan jumlah elemen array (max " << MAX_SIZE << "): ";
+void inputData(){
+    cout << "Masukkan jumlah elemen array (max "<< MAX_SIZE <<"):";
     cin >> n;
 
-    if (n > MAX_SIZE || n <= 0) {
-        cout << "Jumlah elemen tidak valid!" << endl;
-        getch(); // Tunggu input dari pengguna
+    if (n <= 0 || n > MAX_SIZE){
+        cout << "Jumlah elemen tidak valid!\n";
+        cin.get();
         return;
     }
-
-    cout << "Masukkan " << n << " elemen array:" << endl;
-    for (int i = 0; i < n; i++) {
-        cout << "Elemen ke-" << (i + 1) << ": ";
+    cout << "Masukkan" << n << "elemen array:" << endl;
+    for (int i = 0; i < n; i++){
+        cout << "Elemen ke-" << (i + 1) <<":";
         cin >> arr[i];
     }
 }
 
-void outputData() {
+void outputData(){
     system("cls");
     cout << "Data array yang dimasukkan:" << endl;
     for (int i = 0; i < n; i++) {
@@ -45,7 +43,7 @@ void outputData() {
     getch(); // Tunggu input dari pengguna
 }
 
-void bubbleSorting() {
+void bubbleSorting(){
   system("cls");
   // Melakukan bubble sort
   for (int i = 0; i < n - 1; ++i) {
@@ -56,7 +54,7 @@ void bubbleSorting() {
               arr[j + 1] = temp;
           }
       }
-  }
+    }
 
   cout << "Array setelah diurutkan: ";
   for (int i = 0; i < n; ++i) {
@@ -66,13 +64,13 @@ void bubbleSorting() {
   getch();
 }
 
-void sepatahKata() {
+void sepatahKata(){
     system("cls");
-    cout << "Sabar, bentar lagi pulang\n @Farah25";
+    cout << "Sabar dulu, nanti juga selesai kok\n @Farah25";
     getch();
 }
 
-int main() {
+int main(){
     char pl;
     do {
         dMenu();
