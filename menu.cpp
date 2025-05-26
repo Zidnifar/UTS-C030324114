@@ -18,12 +18,21 @@ void Menu(){
 }
 
 void inputData(){
-    cout << "Masukkan" << n << "elemen array: " << endl;
-    for (int i = 0; i < n; i++){
-        cout << "Elemen ke-" << (i+1) << ":";
-        cin >> arr[i];
-    }
-}
+    system("cls") ;
+    cout<< "Masukkan jumlah elemen array (max "<< MAX_SIZE <<"): ";
+    cin>> n;
+
+    if(n <= 0 || n > MAX_SIZE){
+        cout<< "Jumlah elemen tidak valid!\n";
+        cin.get() ;
+        return ;
+     }
+    cout << "Masukkan" << n << "elemen array:" << endl;
+    for(int i = 0; i < n; i++){
+        cout<< "Elemen ke-" << (i+1) << ":";
+        cin>> arr[i];
+     }
+ }
     
 
 void outputData(){
