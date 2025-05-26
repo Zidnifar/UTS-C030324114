@@ -7,14 +7,13 @@ int arr[MAX_SIZE];
 int n = 0; 
 
 void dMenu() {
-    system("cls");
-    cout << "Aplikasi Sorting Bubble" << "\n";       
+    cout << "Aplikasi sorting bubble" << "\n";       
     cout << "1. Memasukkan Data" << "\n";            
     cout << "2. Menampilkan Data" << "\n";            
-    cout << "3. Sorting" << "\n";           
-    cout << "4. Sepatah Kata" << "\n";            
-    cout << "5. Exit" << "\n";           
-    cout << "Masukan angka :";        
+    cout << "3. sorting" << "\n";           
+    cout << "4. sepatah Kata" << "\n";            
+    cout << "5. exit" << "\n";           
+    cout << "Masukkan angka :";        
 }
 
 void inputData(){
