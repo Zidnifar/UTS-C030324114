@@ -74,7 +74,7 @@ void sepatahKata(){
 int main(){
     char pl;
     do {
-        dMenu();
+        Menu();
         pl = getch();
         switch (pl) {
             case '1':
