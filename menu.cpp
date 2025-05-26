@@ -17,7 +17,7 @@ void dMenu(){
     cout << "Masukkan angka :";        
 }
 
-void InputData(){
+void inputData(){
     system("cls");
     cout << "Masukkan jumlah elemen array (max "<< MAX_SIZE <<"): ";
     cin >> n;
