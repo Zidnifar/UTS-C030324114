@@ -25,8 +25,14 @@ void inputData(){
     if (n <= 0 || n > MAX_SIZE){
         cout << "Jumlah elemen tidak valid!\n";
         cin.get();
-     }
+        return;
     }
+    cout << "Masukkan" << n << "elemen array: " << endl;
+    for (int i = 0; i < n; i++){
+        cout << "Elemen ke-" << (i+1) << ":";
+        cin >> arr[i];
+    }
+}
     
 
 void outputData(){
