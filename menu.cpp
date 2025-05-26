@@ -2,9 +2,9 @@
 #include <conio.h>
 using namespace std;
 
-const int MAX_SIZE = 50; // Ukuran maksimum array
-int arr[MAX_SIZE]; // Array untuk menyimpan data
-int n = 0; // Jumlah elemen yang dimasukkan
+const int MAX_SIZE = 100;
+int arr[MAX_SIZE]; 
+int n = 0; 
 
 void dMenu() {
     system("cls");
