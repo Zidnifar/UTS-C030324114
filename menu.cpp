@@ -92,12 +92,12 @@ int main(){
                 break;  
             case '5':
                 break;
-             default:
-                system ("cls");
-                cout<< "Pilihan Tidak Tersedia";
-                getch() ;
-                break ;
-         }
+            default:
+                system("cls");
+                cout << "Pilihan Tidak Tersedia";
+                getch();
+                break;
+        }
     } while (pl != '5');
     
     return 0;
