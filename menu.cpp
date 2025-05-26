@@ -78,17 +78,17 @@ int main(){
         pl = getch();
         switch (pl) {
             case '1':
-                inputData(); // Memanggil fungsi untuk memasukkan data
+                inputData(); //Memanggil fungsi untuk memasukkan data
                 break;
             case '2':
-                outputData(); // Memanggil fungsi untuk menampilkan data
+                outputData(); //Memanggil fungsi untuk menampilkan data
                 break;  
             case '3':
-                bubbleSorting(); // Memanggil fungsi untuk sorting
-                getch(); // Tunggu input dari pengguna
+                bubbleSorting(); //Memanggil fungsi untuk sorting
+                getch(); //Tunggu input dari pengguna
                 break;  
             case '4':
-                sepatahKata();
+                sepatahKata(); //Menampilkan kalimat
                 break;  
             case '5':
                 break;
