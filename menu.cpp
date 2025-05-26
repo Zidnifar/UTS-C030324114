@@ -6,7 +6,8 @@ const int MAX_SIZE = 100;
 int arr[MAX_SIZE]; 
 int n = 0; 
 
-void dMenu() {
+void dMenu(){
+    system("cls");
     cout << "Aplikasi Sorting Bubble" << "\n";       
     cout << "1. Memasukkan data" << "\n";            
     cout << "2. Menampilkan data" << "\n";            
